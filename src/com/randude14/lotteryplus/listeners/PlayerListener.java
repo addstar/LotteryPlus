@@ -158,7 +158,7 @@ public class PlayerListener implements Listener {
 				if (lottery.buyTickets(player, tickets)) {
 					ChatUtils.sendRaw(player, "lottery.trans-completed");
 					ChatUtils.sendRaw(player, "plugin.headliner");
-					lottery.broadcast(player.getName(), tickets);
+					lottery.broadcast("lottery.mess.buy", "<player>", player.getName(), "<tickets>", tickets, "<lottery>", lottery.getName());
 					if (lottery.isOver()) {
 						lottery.draw();
 					}
