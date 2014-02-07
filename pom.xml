@@ -24,17 +24,17 @@
   	</dependency>
 	<dependency>
 		<groupId>com.palmergames</groupId>
-		<artifactId>Towny</artifactId>
+		<artifactId>towny</artifactId>
 		<version>0.84.0.0</version>
 	</dependency>
 	<dependency>
 		<groupId>com.vexsoftware</groupId>
-		<artifactId>Votifier</artifactId>
+		<artifactId>votifier</artifactId>
 		<version>1.9</version>
 	</dependency>
 	<dependency>
 		<groupId>net.milkbowl.vault</groupId>
-		<artifactId>Vault</artifactId>
+		<artifactId>vault</artifactId>
 		<version>1.2.26-SNAPSHOT</version>
 	</dependency>
   </dependencies>
